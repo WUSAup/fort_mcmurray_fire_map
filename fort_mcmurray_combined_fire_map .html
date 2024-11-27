@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_74b19333b5504ae5997e9cb331e28eba {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_74b19333b5504ae5997e9cb331e28eba" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_74b19333b5504ae5997e9cb331e28eba = L.map(
+                "map_74b19333b5504ae5997e9cb331e28eba",
+                {
+                    center: [56.7264, -111.3805],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a9a9307cd32f3d36a0ce8bac3ed609bb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_74b19333b5504ae5997e9cb331e28eba);
+        
+    
+            var marker_97467e5d7b2edb0061e9d884f5f338d0 = L.marker(
+                [56.62, -111.5],
+                {}
+            ).addTo(map_74b19333b5504ae5997e9cb331e28eba);
+        
+    
+            var icon_0d94adde62a3b13a5360485417cf2459 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_97467e5d7b2edb0061e9d884f5f338d0.setIcon(icon_0d94adde62a3b13a5360485417cf2459);
+        
+    
+        var popup_d5136e7757e2e966dd0c33284e3da6eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a6db13f79bfd746081ee1387382d9f2 = $(`<div id="html_1a6db13f79bfd746081ee1387382d9f2" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 2016-05-01<br><b>Description:</b> Initial ignition point<br><b>Duration:</b> 2 days</div>`)[0];
+            popup_d5136e7757e2e966dd0c33284e3da6eb.setContent(html_1a6db13f79bfd746081ee1387382d9f2);
+        
+
+        marker_97467e5d7b2edb0061e9d884f5f338d0.bindPopup(popup_d5136e7757e2e966dd0c33284e3da6eb)
+        ;
+
+        
+    
+    
+            marker_97467e5d7b2edb0061e9d884f5f338d0.bindTooltip(
+                `<div>
+                     Initial ignition point - 2 days
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91a583279dfa8bef8192a9b3cea51719 = L.marker(
+                [56.65, -111.45],
+                {}
+            ).addTo(map_74b19333b5504ae5997e9cb331e28eba);
+        
+    
+            var icon_75570f748b55a870471448cdee84bca4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_91a583279dfa8bef8192a9b3cea51719.setIcon(icon_75570f748b55a870471448cdee84bca4);
+        
+    
+        var popup_098480a03365a7ef642b241b327473f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e5d63468d484ff289fb0b4c60471dec = $(`<div id="html_3e5d63468d484ff289fb0b4c60471dec" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 2016-05-02<br><b>Description:</b> Fire spread near Fort McMurray<br><b>Duration:</b> 1 days</div>`)[0];
+            popup_098480a03365a7ef642b241b327473f0.setContent(html_3e5d63468d484ff289fb0b4c60471dec);
+        
+
+        marker_91a583279dfa8bef8192a9b3cea51719.bindPopup(popup_098480a03365a7ef642b241b327473f0)
+        ;
+
+        
+    
+    
+            marker_91a583279dfa8bef8192a9b3cea51719.bindTooltip(
+                `<div>
+                     Fire spread near Fort McMurray - 1 days
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b55c5fa2835efd743b255db23a0363d4 = L.marker(
+                [56.7264, -111.3805],
+                {}
+            ).addTo(map_74b19333b5504ae5997e9cb331e28eba);
+        
+    
+            var icon_b91c6b9f246756908210566ab58f5a74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b55c5fa2835efd743b255db23a0363d4.setIcon(icon_b91c6b9f246756908210566ab58f5a74);
+        
+    
+        var popup_c3c8408e19f734aedb8cc0bb0a42c6db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b4660af47a899d8622a6f94b1f598d8 = $(`<div id="html_6b4660af47a899d8622a6f94b1f598d8" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 2016-05-03<br><b>Description:</b> Fire entered Fort McMurray city center<br><b>Duration:</b> 4 days</div>`)[0];
+            popup_c3c8408e19f734aedb8cc0bb0a42c6db.setContent(html_6b4660af47a899d8622a6f94b1f598d8);
+        
+
+        marker_b55c5fa2835efd743b255db23a0363d4.bindPopup(popup_c3c8408e19f734aedb8cc0bb0a42c6db)
+        ;
+
+        
+    
+    
+            marker_b55c5fa2835efd743b255db23a0363d4.bindTooltip(
+                `<div>
+                     Fire entered Fort McMurray city center - 4 days
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15fe5cfc39c2ba96a705265afd68f696 = L.marker(
+                [56.73, -111.35],
+                {}
+            ).addTo(map_74b19333b5504ae5997e9cb331e28eba);
+        
+    
+            var icon_6bb96f6f6dac993545528e3d209734ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_15fe5cfc39c2ba96a705265afd68f696.setIcon(icon_6bb96f6f6dac993545528e3d209734ae);
+        
+    
+        var popup_2e24ad86c66f796d7f461708b3cff007 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5492186f0f6c507cbd2d59a84bd53d9 = $(`<div id="html_d5492186f0f6c507cbd2d59a84bd53d9" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 2016-05-04<br><b>Description:</b> Fire spread to east Fort McMurray<br><b>Duration:</b> 3 days</div>`)[0];
+            popup_2e24ad86c66f796d7f461708b3cff007.setContent(html_d5492186f0f6c507cbd2d59a84bd53d9);
+        
+
+        marker_15fe5cfc39c2ba96a705265afd68f696.bindPopup(popup_2e24ad86c66f796d7f461708b3cff007)
+        ;
+
+        
+    
+    
+            marker_15fe5cfc39c2ba96a705265afd68f696.bindTooltip(
+                `<div>
+                     Fire spread to east Fort McMurray - 3 days
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bdcdb930ba88b433d78fe1e6d01d547a = L.marker(
+                [56.72, -111.45],
+                {}
+            ).addTo(map_74b19333b5504ae5997e9cb331e28eba);
+        
+    
+            var icon_1a5ce59067d3c318d80012341f3bf7e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_bdcdb930ba88b433d78fe1e6d01d547a.setIcon(icon_1a5ce59067d3c318d80012341f3bf7e3);
+        
+    
+        var popup_b4d2b42ef417aba58e9ece3a5c07bd4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70f6055f365fb3e89df93edb710dfb4a = $(`<div id="html_70f6055f365fb3e89df93edb710dfb4a" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 2016-05-06<br><b>Description:</b> Fire expanded westward<br><b>Duration:</b> 2 days</div>`)[0];
+            popup_b4d2b42ef417aba58e9ece3a5c07bd4e.setContent(html_70f6055f365fb3e89df93edb710dfb4a);
+        
+
+        marker_bdcdb930ba88b433d78fe1e6d01d547a.bindPopup(popup_b4d2b42ef417aba58e9ece3a5c07bd4e)
+        ;
+
+        
+    
+    
+            marker_bdcdb930ba88b433d78fe1e6d01d547a.bindTooltip(
+                `<div>
+                     Fire expanded westward - 2 days
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c46dd1a94ef7e3f150f123fb021cf8e1 = L.marker(
+                [56.75, -111.3],
+                {}
+            ).addTo(map_74b19333b5504ae5997e9cb331e28eba);
+        
+    
+            var icon_3c97aea016c989bfe13a7cb9b6209d0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c46dd1a94ef7e3f150f123fb021cf8e1.setIcon(icon_3c97aea016c989bfe13a7cb9b6209d0f);
+        
+    
+        var popup_8c0023c7a1c9cadb34bdc6b3c1968202 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99ee03f221878692debfdb45e7215503 = $(`<div id="html_99ee03f221878692debfdb45e7215503" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 2016-05-08<br><b>Description:</b> Fire reached surrounding communities<br><b>Duration:</b> 5 days</div>`)[0];
+            popup_8c0023c7a1c9cadb34bdc6b3c1968202.setContent(html_99ee03f221878692debfdb45e7215503);
+        
+
+        marker_c46dd1a94ef7e3f150f123fb021cf8e1.bindPopup(popup_8c0023c7a1c9cadb34bdc6b3c1968202)
+        ;
+
+        
+    
+    
+            marker_c46dd1a94ef7e3f150f123fb021cf8e1.bindTooltip(
+                `<div>
+                     Fire reached surrounding communities - 5 days
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a587dda1598e960967e5a09d5e4bb71 = L.marker(
+                [54.0, -106.5],
+                {}
+            ).addTo(map_74b19333b5504ae5997e9cb331e28eba);
+        
+    
+            var icon_f3d3351009be4b0d3488a0bd5068b9cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_2a587dda1598e960967e5a09d5e4bb71.setIcon(icon_f3d3351009be4b0d3488a0bd5068b9cb);
+        
+    
+        var popup_c408ecb828078011d7e8a66f980a6e7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92b42c496eb517d4316647d7bdba6223 = $(`<div id="html_92b42c496eb517d4316647d7bdba6223" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 2016-05-19<br><b>Description:</b> Fire spread toward Saskatchewan<br><b>Duration:</b> 10 days</div>`)[0];
+            popup_c408ecb828078011d7e8a66f980a6e7e.setContent(html_92b42c496eb517d4316647d7bdba6223);
+        
+
+        marker_2a587dda1598e960967e5a09d5e4bb71.bindPopup(popup_c408ecb828078011d7e8a66f980a6e7e)
+        ;
+
+        
+    
+    
+            marker_2a587dda1598e960967e5a09d5e4bb71.bindTooltip(
+                `<div>
+                     Fire spread toward Saskatchewan - 10 days
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_caec54f20c818df3dfe3a4dbedd7627d = L.marker(
+                [56.735, -111.385],
+                {}
+            ).addTo(map_74b19333b5504ae5997e9cb331e28eba);
+        
+    
+            var icon_44c2c07345aed1acc171f9a55b9d0153 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_caec54f20c818df3dfe3a4dbedd7627d.setIcon(icon_44c2c07345aed1acc171f9a55b9d0153);
+        
+    
+        var popup_a38003bb7a02292aa329c851afd75d62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03dce02c184330d4ce9c017cbb8818ac = $(`<div id="html_03dce02c184330d4ce9c017cbb8818ac" style="width: 100.0%; height: 100.0%;"><b>Structures Destroyed:</b> 2,400</div>`)[0];
+            popup_a38003bb7a02292aa329c851afd75d62.setContent(html_03dce02c184330d4ce9c017cbb8818ac);
+        
+
+        marker_caec54f20c818df3dfe3a4dbedd7627d.bindPopup(popup_a38003bb7a02292aa329c851afd75d62)
+        ;
+
+        
+    
+    
+            marker_caec54f20c818df3dfe3a4dbedd7627d.bindTooltip(
+                `<div>
+                     Structures Destroyed
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9778e20e2c484279a79d9018c18e318 = L.marker(
+                [56.745, -111.395],
+                {}
+            ).addTo(map_74b19333b5504ae5997e9cb331e28eba);
+        
+    
+            var icon_3245fcf3ebb9190853e9ada5cd89d1aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "users", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c9778e20e2c484279a79d9018c18e318.setIcon(icon_3245fcf3ebb9190853e9ada5cd89d1aa);
+        
+    
+        var popup_149f2c4f42869e615c281bf0e8400c13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_442d568c9615e68ca759ec8b68d70b81 = $(`<div id="html_442d568c9615e68ca759ec8b68d70b81" style="width: 100.0%; height: 100.0%;"><b>Total Evacuated:</b> 88,000</div>`)[0];
+            popup_149f2c4f42869e615c281bf0e8400c13.setContent(html_442d568c9615e68ca759ec8b68d70b81);
+        
+
+        marker_c9778e20e2c484279a79d9018c18e318.bindPopup(popup_149f2c4f42869e615c281bf0e8400c13)
+        ;
+
+        
+    
+    
+            marker_c9778e20e2c484279a79d9018c18e318.bindTooltip(
+                `<div>
+                     Total Evacuated
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b4ab6a7eb52ee4c62eb38d66654eb0e = L.marker(
+                [56.755, -111.37],
+                {}
+            ).addTo(map_74b19333b5504ae5997e9cb331e28eba);
+        
+    
+            var icon_3eaa7770dffd670c7c89f7b64c2e5dd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "dollar-sign", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_5b4ab6a7eb52ee4c62eb38d66654eb0e.setIcon(icon_3eaa7770dffd670c7c89f7b64c2e5dd9);
+        
+    
+        var popup_1b613e4d3ce327a8067ea79cec1ed7ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59463f3e7c8a322ffaa1199b2d85afbc = $(`<div id="html_59463f3e7c8a322ffaa1199b2d85afbc" style="width: 100.0%; height: 100.0%;"><b>Insurance Claims:</b> $3,580,000,000 CAD</div>`)[0];
+            popup_1b613e4d3ce327a8067ea79cec1ed7ee.setContent(html_59463f3e7c8a322ffaa1199b2d85afbc);
+        
+
+        marker_5b4ab6a7eb52ee4c62eb38d66654eb0e.bindPopup(popup_1b613e4d3ce327a8067ea79cec1ed7ee)
+        ;
+
+        
+    
+    
+            marker_5b4ab6a7eb52ee4c62eb38d66654eb0e.bindTooltip(
+                `<div>
+                     Insurance Claims
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2a79b93180168f0d916cbaea1cd4a68 = L.marker(
+                [56.765, -111.355],
+                {}
+            ).addTo(map_74b19333b5504ae5997e9cb331e28eba);
+        
+    
+            var icon_0a7799165445ef25bde325cef4dbc0f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "oil-can", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a2a79b93180168f0d916cbaea1cd4a68.setIcon(icon_0a7799165445ef25bde325cef4dbc0f3);
+        
+    
+        var popup_424121cc89488ef4d6dafa57325bd8fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc5c0bb53f74239135a908f23f52ca67 = $(`<div id="html_bc5c0bb53f74239135a908f23f52ca67" style="width: 100.0%; height: 100.0%;"><b>Oil Production Loss:</b> 1,000,000 barrels/day</div>`)[0];
+            popup_424121cc89488ef4d6dafa57325bd8fb.setContent(html_bc5c0bb53f74239135a908f23f52ca67);
+        
+
+        marker_a2a79b93180168f0d916cbaea1cd4a68.bindPopup(popup_424121cc89488ef4d6dafa57325bd8fb)
+        ;
+
+        
+    
+    
+            marker_a2a79b93180168f0d916cbaea1cd4a68.bindTooltip(
+                `<div>
+                     Oil Production Loss
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1c8c37ad71e8b25d0a92b358be86368 = L.marker(
+                [56.775, -111.34],
+                {}
+            ).addTo(map_74b19333b5504ae5997e9cb331e28eba);
+        
+    
+            var icon_5d65c42729cb25432fef97331cac7640 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "clock", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b1c8c37ad71e8b25d0a92b358be86368.setIcon(icon_5d65c42729cb25432fef97331cac7640);
+        
+    
+        var popup_bd11e4d349967235df9ba5bb2a04fb09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebeafb0097c91842e2e10ed38975b1fa = $(`<div id="html_ebeafb0097c91842e2e10ed38975b1fa" style="width: 100.0%; height: 100.0%;"><b>Loss Duration:</b> 90 days</div>`)[0];
+            popup_bd11e4d349967235df9ba5bb2a04fb09.setContent(html_ebeafb0097c91842e2e10ed38975b1fa);
+        
+
+        marker_b1c8c37ad71e8b25d0a92b358be86368.bindPopup(popup_bd11e4d349967235df9ba5bb2a04fb09)
+        ;
+
+        
+    
+    
+            marker_b1c8c37ad71e8b25d0a92b358be86368.bindTooltip(
+                `<div>
+                     Duration of Production Loss
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d9947240f5261d51601d00d2d2774f14 = L.circle(
+                [56.7264, -111.3805],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000, "stroke": true, "weight": 3}
+            ).addTo(map_74b19333b5504ae5997e9cb331e28eba);
+        
+    
+        var popup_2003d4ab08d43d38f16c691015dcda01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c67f6636ec91d218eb1ff56103b6c8c = $(`<div id="html_1c67f6636ec91d218eb1ff56103b6c8c" style="width: 100.0%; height: 100.0%;">Approximate Burn Area</div>`)[0];
+            popup_2003d4ab08d43d38f16c691015dcda01.setContent(html_1c67f6636ec91d218eb1ff56103b6c8c);
+        
+
+        circle_d9947240f5261d51601d00d2d2774f14.bindPopup(popup_2003d4ab08d43d38f16c691015dcda01)
+        ;
+
+        
+    
+</script>
+</html>
